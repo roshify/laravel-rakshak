@@ -1,11 +1,11 @@
 <?php
 
-namespace Roshp\LaravelRakshak\Console;
+namespace Roshify\LaravelRakshak\Console;
 
 use Illuminate\Console\Command;
-use Roshp\LaravelRakshak\Models\Module;
-use Roshp\LaravelRakshak\Models\Action;
-use Roshp\LaravelRakshak\Models\Role;
+use Roshify\LaravelRakshak\Models\Module;
+use Roshify\LaravelRakshak\Models\Action;
+use Roshify\LaravelRakshak\Models\Role;
 
 class ListRakshakItemsCommand extends Command
 {

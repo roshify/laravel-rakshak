@@ -1,6 +1,6 @@
 <?php
 
-namespace Roshp\LaravelRakshak\Models;
+namespace Roshify\LaravelRakshak\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;

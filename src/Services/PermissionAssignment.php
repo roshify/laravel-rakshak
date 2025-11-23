@@ -1,10 +1,10 @@
 <?php
 
-namespace Roshp\LaravelRakshak\Services;
+namespace Roshify\LaravelRakshak\Services;
 
 use Illuminate\Database\Eloquent\Model;
-use Roshp\LaravelRakshak\Models\Action;
-use Roshp\LaravelRakshak\Models\Module;
+use Roshify\LaravelRakshak\Models\Action;
+use Roshify\LaravelRakshak\Models\Module;
 
 class PermissionAssignment {
     protected $model;

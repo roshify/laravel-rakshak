@@ -1,12 +1,12 @@
 <?php
 
-namespace Roshp\LaravelRakshak\Traits;
+namespace Roshify\LaravelRakshak\Traits;
 
 use Illuminate\Support\Facades\Cache;
-use Roshp\LaravelRakshak\Models\Action;
-use Roshp\LaravelRakshak\Models\Module;
-use Roshp\LaravelRakshak\Models\Permission;
-use Roshp\LaravelRakshak\Services\PermissionAssignment;
+use Roshify\LaravelRakshak\Models\Action;
+use Roshify\LaravelRakshak\Models\Module;
+use Roshify\LaravelRakshak\Models\Permission;
+use Roshify\LaravelRakshak\Services\PermissionAssignment;
 
 trait HasPermissions {
 

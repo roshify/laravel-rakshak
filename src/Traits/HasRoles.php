@@ -1,12 +1,12 @@
 <?php
 
-namespace Roshp\LaravelRakshak\Traits;
+namespace Roshify\LaravelRakshak\Traits;
 
 use Illuminate\Database\Eloquent\Collection;
-use Roshp\LaravelRakshak\Models\ModelHasRole;
-use Roshp\LaravelRakshak\Models\Role;
+use Roshify\LaravelRakshak\Models\ModelHasRole;
+use Roshify\LaravelRakshak\Models\Role;
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
-use Roshp\LaravelRakshak\Services\RoleAssignment;
+use Roshify\LaravelRakshak\Services\RoleAssignment;
 
 trait HasRoles {
 

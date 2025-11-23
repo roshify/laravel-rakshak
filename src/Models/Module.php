@@ -1,15 +1,14 @@
 <?php
 
-namespace Roshp\LaravelRakshak\Models;
+namespace Roshify\LaravelRakshak\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
-use Kblais\QueryFilter\Filterable;
 
 class Module extends Model
 {
-    use HasFactory, SoftDeletes, Filterable;
+    use HasFactory, SoftDeletes;
     
     protected $guarded = ['id'];
 

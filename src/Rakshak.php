@@ -1,10 +1,10 @@
 <?php
 
-namespace Roshp\LaravelRakshak;
+namespace Roshify\LaravelRakshak;
 
-use Roshp\LaravelRakshak\Models\Action;
-use Roshp\LaravelRakshak\Models\Module;
-use Roshp\LaravelRakshak\Models\Role;
+use Roshify\LaravelRakshak\Models\Action;
+use Roshify\LaravelRakshak\Models\Module;
+use Roshify\LaravelRakshak\Models\Role;
 
 class Rakshak
 {
@@ -39,12 +39,12 @@ class Rakshak
     }
 
     // Your main logic for managing roles, permissions, etc.
-    public function assignRole(\Illuminate\Database\Eloquent\Model $model, string | \Roshp\LaravelRakshak\Models\Role $role)
+    public function assignRole(\Illuminate\Database\Eloquent\Model $model, string | \Roshify\LaravelRakshak\Models\Role $role)
     {
         // Logic to assign a role to a model
     }
 
-    public function checkPermission(\Illuminate\Database\Eloquent\Model $model, string | \Roshp\LaravelRakshak\Models\Role $role)
+    public function checkPermission(\Illuminate\Database\Eloquent\Model $model, string | \Roshify\LaravelRakshak\Models\Role $role)
     {
         // Logic to check permissions
     }

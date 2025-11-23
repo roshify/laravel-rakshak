@@ -1,6 +1,6 @@
 <?php
 
-namespace Roshp\LaravelRakshak\Http\Controllers;
+namespace Roshify\LaravelRakshak\Http\Controllers;
 
 use Illuminate\Routing\Controller;
 

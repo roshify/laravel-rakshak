@@ -1,10 +1,10 @@
 <?php
 
-namespace Roshp\LaravelRakshak\Services;
+namespace Roshify\LaravelRakshak\Services;
 
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
-use Roshp\LaravelRakshak\Models\Role;
+use Roshify\LaravelRakshak\Models\Role;
 
 class RoleAssignment {
     protected $model;

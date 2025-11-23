@@ -1,10 +1,10 @@
 <?php
 
-namespace Roshp\LaravelRakshak\Console;
+namespace Roshify\LaravelRakshak\Console;
 
 use Illuminate\Console\Command;
-use Roshp\LaravelRakshak\Facades\Rakshak;
-use Roshp\LaravelRakshak\Models\Module;
+use Roshify\LaravelRakshak\Facades\Rakshak;
+use Roshify\LaravelRakshak\Models\Module;
 
 class ManageModuleCommand extends Command
 {
