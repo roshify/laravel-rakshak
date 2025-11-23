@@ -1,39 +1,63 @@
 {
-  "name": "roshify/laravel-rakshak",
-  "description": "Roles and Permissions management package for Laravel",
-  "type": "library",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Roshan Poojary",
-      "email": "poojariroshan4@gmail.com"
-    }
-  ],
-  "autoload": {
-    "psr-4": {
-      "Roshp\\LaravelRakshak\\": "src/"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Roshp\\LaravelRakshak\\Tests\\": "tests/"
-    }
-  },
-  "require": {
-    "php": "^8.0",
-    "illuminate/support": "^9.0 | ^10.0"
-  },
-  "require-dev": {
-    "pestphp/pest": "^1.0"
-  },
-  "extra": {
-    "laravel": {
-      "providers": [
-        "Roshp\\LaravelRakshak\\LaravelRakshakServiceProvider"
-      ],
-      "aliases": {
-        "Rakshak": "Roshp\\LaravelRakshak\\Facades\\Rakshak"
-      }
-    }
-  }
+    "name": "roshify/laravel-rakshak",
+    "description": "A powerful and flexible roles and permissions management package for Laravel applications",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "permissions",
+        "roles",
+        "acl",
+        "rbac",
+        "authorization",
+        "access-control",
+        "laravel-package",
+        "security"
+    ],
+    "homepage": "https://github.com/roshify/laravel-rakshak",
+    "authors": [
+        {
+            "name": "Roshan Poojary",
+            "email": "poojariroshan4@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1|^8.2|^8.3",
+        "illuminate/console": "^9.0|^10.0|^11.0",
+        "illuminate/contracts": "^9.0|^10.0|^11.0",
+        "illuminate/database": "^9.0|^10.0|^11.0",
+        "illuminate/support": "^9.0|^10.0|^11.0"
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.0",
+        "orchestra/testbench": "^7.0|^8.0|^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Roshify\\LaravelRakshak\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Roshify\\LaravelRakshak\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Roshify\\LaravelRakshak\\LaravelRakshakServiceProvider"
+            ],
+            "aliases": {
+                "Rakshak": "Roshify\\LaravelRakshak\\Facades\\Rakshak"
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
